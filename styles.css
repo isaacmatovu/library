@@ -1,0 +1,63 @@
+#form-details{
+        height: 400px;
+        width: 400px;
+        background-color: #ecde60;
+        display: grid;
+        grid-template-columns: 1fr;
+}
+.input-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+input[type='text'],
+input[type='number']
+{
+     font-size: 20px;
+     border: none;
+}
+#add{
+    background-color: #43db43;
+    border: none;
+    
+}
+.bookitems{
+    width: fit-content;
+    padding: 10px;
+    background-color: #5ae466;
+    gap: 10px;
+    border: 1px solid #b1abab;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 2px -8px 8px rgba(53, 70, 95, 0.4);
+}
+#books{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    gap: 10px;
+}
+.h1,h2,.p1,.p2{
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #59946b;
+    width: fit-content;
+    padding: 10px;
+    border-bottom:3px solid black;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.89);
+
+   
+}
+.del{
+    background-color: #41bdd3;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
